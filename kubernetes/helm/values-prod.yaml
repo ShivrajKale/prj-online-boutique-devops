@@ -1,0 +1,32 @@
+images:
+  repository: "672965014914.dkr.ecr.ap-south-1.amazonaws.com/boutique"
+  tag: "v1.0"
+
+frontend:
+  replicas: 2
+  resources:
+    requests: { cpu: 100m, memory: 64Mi }
+    limits: { cpu: 200m, memory: 128Mi }
+
+checkoutService:
+  replicas: 2
+  resources:
+    requests: { cpu: 100m, memory: 64Mi }
+
+currencyService:
+  replicas: 2
+  resources:
+    requests: { cpu: 200m, memory: 64Mi }
+
+cartService:
+  replicas: 2
+
+productCatalogService: { replicas: 1 }
+recommendationService: { replicas: 1 }
+paymentService:        { replicas: 1 }
+shippingService:       { replicas: 1 }
+emailService:          { replicas: 1 }
+adService:             { replicas: 1 }
+
+loadGenerator:
+  enabled: true
