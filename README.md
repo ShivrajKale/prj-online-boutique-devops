@@ -176,21 +176,21 @@ online-boutique-devops-project/
 ## Screenshots
 
 ### Application Running
-![App](screenshots/01-app-homepage.png)
+![App](screenshots/'boutique project screenshots'/app-homepage.png)
 
 ### All Pods Running
-![Pods](screenshots/04-kubectl-pods-running.png)
+![Pods](screenshots/'boutique project screenshots'/kubectl-pods-running.png)
 
 ### ALB Active
-![ALB](screenshots/07-alb-active.png)
+![ALB](screenshots/'boutique project screenshots'/alb-active.png)
 
 ### ArgoCD Dashboard
-![ArgoCD](screenshots/08-argocd-dashboard.png)
+![ArgoCD](screenshots/'boutique project screenshots'/argocd-dashboard.png)
 
 ### CI/CD Pipeline
-![CICD](screenshots/09-github-actions-green.png)
+![CICD](screenshots/'boutique project screenshots'/github-actions-green.png)
 
 ### Grafana Monitoring
-![Grafana](screenshots/11-grafana-dashboard.png)
+![Grafana](screenshots/'boutique project screenshots'/grafana-dashboard.png)
 
 ---
