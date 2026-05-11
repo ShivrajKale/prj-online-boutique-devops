@@ -188,7 +188,7 @@ online-boutique-devops-project/
 ![ArgoCD](screenshots/argocd-dashboard.png)
 
 ### CI/CD Pipeline
-![CICD](screenshots/github-actions-green.png)
+![CICD](screenshots/github-actions.png)
 
 ### Grafana Monitoring
 ![Grafana](screenshots/grafana-dashboard.png)
