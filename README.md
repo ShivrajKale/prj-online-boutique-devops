@@ -15,6 +15,7 @@ Deployed [Google's Online Boutique](https://github.com/GoogleCloudPlatform/micro
 ---
 
 ## Architecture
+'''
 Internet → AWS WAF → ALB (3 AZs) → EKS Cluster
 ├── Frontend (Go)
 ├── Checkout Service (Go)
@@ -27,7 +28,7 @@ Internet → AWS WAF → ALB (3 AZs) → EKS Cluster
 ├── Recommendation (Python)
 ├── Ad Service (Java)
 └── Load Generator (Python/Locust)
-
+'''
 ### AWS Infrastructure
 
 | Layer | Service | Details |
@@ -46,6 +47,7 @@ Internet → AWS WAF → ALB (3 AZs) → EKS Cluster
 ---
 
 ## Repository Structure
+'''
 online-boutique-devops-project/
 ├── terraform/                          # Infrastructure as Code
 │   ├── backend.tf                      # S3 remote state + DynamoDB lock
@@ -84,7 +86,7 @@ online-boutique-devops-project/
 │   └── 14-hpa-output.png
 │
 └── README.md
-
+'''
 ---
 
 ## What I Built — 10 Phases
