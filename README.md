@@ -2,7 +2,7 @@
 
 > **11 microservices | 5 languages | Full production infrastructure on AWS — built from scratch**
 
-![App Screenshot](screenshots/01-app-homepage.png)
+![App Screenshot](screenshots/app-homepage.png)
 
 ---
 
